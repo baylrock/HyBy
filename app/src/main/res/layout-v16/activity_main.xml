@@ -6,25 +6,25 @@
     android:layout_height="match_parent"
     tools:context="com.baylrock.trainingtasks.happybirthday.MainActivity">
 
+
     <TextView
         android:layout_weight="1"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"
         android:fontFamily="sans-serif-light"
         android:textSize="36sp"
         android:padding="5dp"
+        android:textStyle="bold"
 
-        android:textColor="@android:color/secondary_text_light"
-        android:background="@android:color/white"
+
+        android:textColor="@color/title_text"
+        android:background="@color/title_bg"
 
         android:text="@string/jams" />
 
     <ImageView
-        android:layout_weight="2"
+        android:layout_weight="50"
         android:id="@+id/bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,14 +40,12 @@
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif-light"
-        android:layout_centerInParent="true"
         android:textSize="36sp"
         android:padding="5dp"
-        android:textColor="@android:color/secondary_text_light"
-        android:background=""
+        android:textStyle="bold"
+        android:textColor="@color/title_text"
+        android:background="@color/title_bg"
         android:text="@string/from_vlad"/>
 
 
