@@ -1,5 +1,6 @@
 # HyBy
-
+##Layout
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -7,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.baylrock.trainingtasks.happybirthday.MainActivity">
-    
+
     <TextView
         android:layout_weight="1"
         android:gravity="center"
@@ -41,3 +42,7 @@
         android:background="@color/title_bg"
         android:text="@string/from_vlad"/>
 </LinearLayout>
+```
+
+##Result
+![alt tag](http://i.prntscr.com/e54f5513b83a4ad5bd16abb41a233cd1.png)
